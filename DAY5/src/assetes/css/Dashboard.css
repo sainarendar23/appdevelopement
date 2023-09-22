@@ -1,0 +1,42 @@
+  /* Define a container for the dashboard */
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    /* Add more styles as needed */
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    background-color: #eee;
+    padding: 1rem;
+    /* Add more styles as needed */
+  }
+  
+  /* Style the main content area */
+  main {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    /* Add more styles as needed */
+  }
+  
+  /* Style the dashboard overview and content sections */
+  .dashboard-overview {
+    flex: 1;
+    margin-right: 1rem;
+    /* Add more styles as needed */
+  }
+  
+  .dashboard-content {
+    flex: 3;
+    /* Add more styles as needed */
+  }
+  
