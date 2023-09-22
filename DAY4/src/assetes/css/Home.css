@@ -1,0 +1,38 @@
+.navbar1 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  
+  .navbar1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar1 li {
+    font-weight: 600;
+    margin: 2px 0px 0 5px;
+    transition: all 0.3s;
+  }
+  .navbar1 li:hover {
+  
+    color: #312d33; /* Change text color on hover */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+  }
+  
+  .navbar1 a {
+    color: #fff;
+    text-decoration: none;
+  
+  }
+  .content1 {
+
+  }
